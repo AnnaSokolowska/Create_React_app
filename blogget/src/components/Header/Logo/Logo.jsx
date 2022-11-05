@@ -2,10 +2,9 @@ import React from 'react';
 import style from './Logo.module.css';
 import logo from './img/logo.svg';
 
-export const Logo = () => {
-    return (
-        <a className={style.link} href='/'>
-            <img className={style.logo} src={logo} alt="logo of the service blogget"></img>
-        </a>
-    )
-}
+export const Logo = () => (
+  <a className={style.link} href='/'>
+    <img className={style.logo} src={logo} alt="logo of the service blogget">
+    </img>
+  </a>
+);
